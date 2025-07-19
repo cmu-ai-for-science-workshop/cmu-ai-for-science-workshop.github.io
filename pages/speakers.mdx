@@ -1,7 +1,45 @@
 # Invited Speakers
 
-- AG2: Open-Source AgentOS for AI Agents -- [Qingyun Wu](https://qingyun-wu.github.io/) (PSU)
-- Multi-Turn RL for Training VLM Agents -- [Aviral Kumar](https://aviralkumar2907.github.io/) (CMU)
-- Building Collaborative and Responsible Human-Agent Interaction -- [Diyi Yang](https://cs.stanford.edu/~diyiy/) (Stanford)
-- Software Development Agents -- [Graham Neubig](https://www.phontron.com/) (CMU)
-- Human-Agent Collaboration: The Process Matters, Too -- [Sherry WU](https://www.cs.cmu.edu/~sherryw/) (CMU)
+import Image from 'next/image';
+import akari from '../public/speakers/akari_asai.jpg';
+import gabe from '../public/speakers/gabe_gomes.jpg';
+import chenglei from '../public/speakers/chenglei_si.jpg';
+import keyon from '../public/speakers/keyon_vafa.jpg';
+
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '2rem', marginTop: '2rem' }}>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+    <Image src={akari} alt="Akari Asai" width={200} height={200} style={{ borderRadius: '50%', objectFit: 'cover' }} />
+    <h3 style={{ marginTop: '1rem', marginBottom: '0.5rem' }}>Akari Asai</h3>
+    <p style={{ margin: 0 }}>Carnegie Mellon University</p>
+    <p style={{ marginTop: '0.5rem' }}>
+      Akari Asai is an incoming Assistant Professor at Carnegie Mellon University (Fall 2026), affiliated with the Language Technologies Institute. Her research focuses on natural language processing, machine learning, and information retrieval.
+    </p>
+  </div>
+
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+    <Image src={gabe} alt="Gabe Gomes" width={200} height={200} style={{ borderRadius: '50%', objectFit: 'cover' }} />
+    <h3 style={{ marginTop: '1rem', marginBottom: '0.5rem' }}>Gabe Gomes</h3>
+    <p style={{ margin: 0 }}>Carnegie Mellon University</p>
+    <p style={{ marginTop: '0.5rem' }}>
+      Gabe Gomes is an Assistant Professor in the Departments of Chemistry and Chemical Engineering at Carnegie Mellon University. His research focuses on applying AI to chemical discovery and synthesis.
+    </p>
+  </div>
+
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+    <Image src={chenglei} alt="Chenglei Si" width={200} height={200} style={{ borderRadius: '50%', objectFit: 'cover' }} />
+    <h3 style={{ marginTop: '1rem', marginBottom: '0.5rem' }}>Chenglei Si</h3>
+    <p style={{ margin: 0 }}>Stanford University</p>
+    <p style={{ marginTop: '0.5rem' }}>
+      Chenglei Si is a PhD student at Stanford University. His research interests include large language models and AI for science, exploring how LLMs can transform scientific research.
+    </p>
+  </div>
+
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+    <Image src={keyon} alt="Keyon Vafa" width={200} height={200} style={{ borderRadius: '50%', objectFit: 'cover' }} />
+    <h3 style={{ marginTop: '1rem', marginBottom: '0.5rem' }}>Keyon Vafa</h3>
+    <p style={{ margin: 0 }}>Harvard University</p>
+    <p style={{ marginTop: '0.5rem' }}>
+      Keyon Vafa is a postdoctoral fellow at Harvard University as part of the Harvard Data Science Initiative. His research focuses on behavioral machine learning and applications of AI to scientific problems.
+    </p>
+  </div>
+</div>
